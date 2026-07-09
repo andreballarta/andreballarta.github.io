@@ -1,0 +1,65 @@
+body {
+    background-image: url("images/background-andreballarta.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+header {
+    width: 70%;
+    background-color: #0b1453;
+    margin: 0 auto 10px auto;
+    padding: 10px;
+    max-width: 1000px;
+    color: white;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.about-me, .education, .work-experience, .technical-stack, .certifications, .portfolio, .interests, .contact{
+    width: 70%;
+    background-color: #0b1453;
+    margin: 0 auto 10px auto;
+    padding: 10px;
+    max-width: 1000px;
+    color: white;
+    border: 2px solid black;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+footer, footer p {
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    max-width: 1000px;
+    color: white;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+nav {
+    display: inline-block;
+    text-align: right;
+    margin: 5px;
+    font-size: 15px;
+}
+
+nav p {
+    display: inline-block;
+    margin: 10px;
+}
+
+.education img, figcaption, p{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
